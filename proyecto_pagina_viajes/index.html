@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Travel - Experiencias Únicas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="The Travel Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#nosotros">Nosotros</a>
+                <a href="#experiencias">Experiencias</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero parallax" style="background-image: url('img/header.png')">
+        <div class="hero-content">
+            <h1>THE TRAVEL</h1>
+            <p>Descubre experiencias únicas alrededor del mundo</p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <h2>NOSOTROS</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img/nosotros_1.png" alt="Viaje">
+            </div>
+            <div class="gallery-item">
+                <img src="img/nosotros_2.png" alt="Roma">
+            </div>
+            <div class="gallery-item">
+                <img src="img/nosotros_3.png" alt="Playa">
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencias" class="experiencias">
+        <h2>EXPERIENCIAS GRUPALES</h2>
+        <div class="exp-cards">
+            <div class="card">
+                <img src="img/exp_grupales_1.png" alt="Safari">
+                <h3>Safari Africano</h3>
+                <button>Ver experiencia</button>
+            </div>
+            <div class="card">
+                <img src="img/exp_grupales_2.png" alt="Atardecer">
+                <h3>Playas Paradisíacas</h3>
+                <button>Ver experiencia</button>
+            </div>
+            <div class="card">
+                <img src="img/exp_grupales_3.png" alt="Montaña">
+                <h3>Trekking Extremo</h3>
+                <button>Ver experiencia</button>
+            </div>
+        </div>
+
+        <div class="exp-personalizadas">
+            <h2>EXPERIENCIAS PERSONALIZADAS</h2>
+            <p>¿QUÉ NOS HACE DIFERENTES?</p>
+            <div class="content">
+                <img src="img/exp_personalizadas.png" alt="Experiencias Personalizadas">
+                <p>Nos especializamos en crear experiencias únicas y personalizadas para cada viajero. Nuestro equipo de expertos trabaja contigo para diseñar el viaje de tus sueños, adaptándose a tus preferencias y necesidades específicas.</p>
+                <button>SABER MÁS</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <h2>BLOGS</h2>
+        <div class="blog-posts">
+            <div class="post">
+                <img src="img/blogs_1.png" alt="Senderismo">
+                <h3>DESTINOS PARA HACER EN PAREJA</h3>
+                <span>12/12/2023</span>
+            </div>
+            <div class="post">
+                <img src="img/blogs_2.png" alt="Ciudad">
+                <h3>TOP 5 CIUDADES EUROPEAS</h3>
+                <span>10/12/2023</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>DISEÑA TU VIAJE</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="telefono" placeholder="Teléfono" required>
+                <input type="text" name="destino" placeholder="Destino de interés" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="personas" placeholder="N° de personas" required>
+                <input type="date" name="fecha" required>
+            </div>
+            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="partners">
+            <img src="img/logo1.png" alt="Partner 1">
+            <img src="img/logo2.png" alt="Partner 2">
+            <img src="img/logo3.png" alt="Partner 3">
+            <img src="img/logo4.png" alt="Partner 4">
+            <img src="img/logo5.png" alt="Partner 5">
+            <img src="img/logo6.png" alt="Partner 6">
+            <img src="img/logo7.png" alt="Partner 7">
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><img src="img/logo_WA.png" alt="WhatsApp"></a>
+        </div>
+        <div class="contact-info">
+            <p><img src="img/icono_mail.png" alt="Email"> contacto@thetravel.com</p>
+            <p><img src="img/icono_telefono.png" alt="Teléfono"> +1 234 567 890</p>
+            <p><img src="img/icono_ubicacion.png" alt="Ubicación"> Nuestra Ubicación</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
